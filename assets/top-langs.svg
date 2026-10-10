@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="467" height="195" viewBox="0 0 467 195" fill="none" role="img" aria-labelledby="title">
+  <title id="title">Most Used Languages</title>
+  <style>
+    .header { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #fe428e; animation: fadeIn .8s ease-in-out backwards; }
+    .lang-name { font: 400 13px 'Segoe UI', Ubuntu, Sans-Serif; fill: #a9fef7; }
+    .stagger { animation: fadeIn .3s ease-in-out backwards; }
+    .bar { animation: grow .8s ease-in-out backwards; transform-origin: left; }
+    @keyframes fadeIn { from { opacity: 0; } }
+    @keyframes grow { from { transform: scaleX(0); } }
+  </style>
+  <rect x="0.5" y="0.5" rx="4.5" width="466" height="99%" fill="#141321"/>
+  <text x="25" y="35" class="header">Most Used Languages</text>
+  <g transform="translate(25, 55)">
+    <mask id="bar-mask"><rect width="417" height="8" rx="5" fill="white"/></mask>
+    <g class="bar" mask="url(#bar-mask)">
+      <rect x="0.00" y="0" width="257.60" height="8" fill="#b07219"/>
+      <rect x="257.60" y="0" width="76.14" height="8" fill="#3178c6"/>
+      <rect x="333.74" y="0" width="20.34" height="8" fill="#00ADD8"/>
+      <rect x="354.08" y="0" width="18.89" height="8" fill="#f34b7d"/>
+      <rect x="372.97" y="0" width="14.09" height="8" fill="#dea584"/>
+      <rect x="387.06" y="0" width="10.23" height="8" fill="#f1e05a"/>
+      <rect x="397.29" y="0" width="10.13" height="8" fill="#663399"/>
+      <rect x="407.43" y="0" width="9.57" height="8" fill="#00B4AB"/>
+    </g>
+  </g>
+  <g transform="translate(25, 85)">
+    <g class="stagger" style="animation-delay: 450ms" transform="translate(0, 0)">
+      <circle cx="5" cy="6" r="5" fill="#b07219"/>
+      <text class="lang-name" x="15" y="10">Java 61.77%</text>
+    </g>
+    <g class="stagger" style="animation-delay: 550ms" transform="translate(0, 25)">
+      <circle cx="5" cy="6" r="5" fill="#3178c6"/>
+      <text class="lang-name" x="15" y="10">TypeScript 18.26%</text>
+    </g>
+    <g class="stagger" style="animation-delay: 650ms" transform="translate(0, 50)">
+      <circle cx="5" cy="6" r="5" fill="#00ADD8"/>
+      <text class="lang-name" x="15" y="10">Go 4.88%</text>
+    </g>
+    <g class="stagger" style="animation-delay: 750ms" transform="translate(0, 75)">
+      <circle cx="5" cy="6" r="5" fill="#f34b7d"/>
+      <text class="lang-name" x="15" y="10">C++ 4.53%</text>
+    </g>
+    <g class="stagger" style="animation-delay: 850ms" transform="translate(220, 0)">
+      <circle cx="5" cy="6" r="5" fill="#dea584"/>
+      <text class="lang-name" x="15" y="10">Rust 3.38%</text>
+    </g>
+    <g class="stagger" style="animation-delay: 950ms" transform="translate(220, 25)">
+      <circle cx="5" cy="6" r="5" fill="#f1e05a"/>
+      <text class="lang-name" x="15" y="10">JavaScript 2.45%</text>
+    </g>
+    <g class="stagger" style="animation-delay: 1050ms" transform="translate(220, 50)">
+      <circle cx="5" cy="6" r="5" fill="#663399"/>
+      <text class="lang-name" x="15" y="10">CSS 2.43%</text>
+    </g>
+    <g class="stagger" style="animation-delay: 1150ms" transform="translate(220, 75)">
+      <circle cx="5" cy="6" r="5" fill="#00B4AB"/>
+      <text class="lang-name" x="15" y="10">Dart 2.30%</text>
+    </g>
+  </g>
+</svg>

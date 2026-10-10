@@ -38,7 +38,7 @@
 
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=FabienDebouse&theme=radical&hide_border=true" alt="GitHub Streak" height="180" />
-  <img src="./assets/github-stats.svg" alt="GitHub Stats" height="180" />
+  <img src="./assets/top-langs.svg" alt="Most Used Languages" height="180" />
 </p>
 
 <p align="center">
